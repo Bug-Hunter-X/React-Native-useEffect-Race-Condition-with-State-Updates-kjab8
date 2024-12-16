@@ -1,0 +1,1 @@
+This bug occurs when using the `useEffect` hook in React Native with a callback function that modifies a state variable.  The issue arises when the component renders before the state update is reflected, leading to unexpected behavior or race conditions. This is especially problematic when dealing with asynchronous operations.
